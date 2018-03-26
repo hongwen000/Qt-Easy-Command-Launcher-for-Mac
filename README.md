@@ -7,6 +7,6 @@
 
 点击Start Command执行指定的指令，Open Folder打开指定的文件夹。
 
-要打开的文件夹和路径是通过在main.cpp里面的cmd和path变量，传给Backen类的构造函数指定的。
+命令的工作路径，要使用的命令，要打打开的文件夹是通过在main.cpp里面的working_path、cmd和path变量指定的.
 # 编译说明
 在Sierra 10.12 + Qt 5.10下编译通过。依赖iterm2。
